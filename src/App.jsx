@@ -56,7 +56,7 @@ const App = () => {
   };
 
   return (
-    <div className="w-3xl h-auto py-10 px-10 mx-auto mt-10 bg-white  shadow-2xl rounded-lg">
+    <div className="w-3xl h-auto py-10 px-10 mx-auto mt-10 bg-white  shadow-2xl rounded-lg max-sm:w-full max-sm:mx-2">
       <div className="flex flex-col justify-center items-center h-full">
         <h1 className="text-3xl font-bold">My Todo List</h1>
         <div className="w-full mt-4 flex items-center justify-center gap-4">
@@ -68,7 +68,7 @@ const App = () => {
             className="border-2 border-gray-300 rounded-lg px-4 py-2 w-full mt-4 focus:outline-none focus:border-blue-500 transition duration-300"
           />
           <button
-            className="w-1/4 bg-blue-500 text-white rounded-lg px-4 py-2 mt-4 hover:bg-blue-600 transition duration-300"
+            className="w-1/4 max-sm:w-1/2 bg-blue-500 text-white rounded-lg px-4 py-2 mt-4 hover:bg-blue-600 transition duration-300"
             onClick={addTask}
           >
             Add Task
